@@ -27,16 +27,16 @@ Our dataset
 The dataset is devided into landscape, portrait and architecture images. (https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing)
 
 Landscape
-![Images](https://github.com/lishiyu0088/Neural_Bradley-Terry/tree/main/readme_images/L1.jpg)
-![Results](https://github.com/lishiyu0088/Neural_Bradley-Terry/tree/main/readme_images/L1.png)
+![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.jpg)
+![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.png)
 
 Portrait
-![Images](https://github.com/lishiyu0088/Neural_Bradley-Terry/tree/main/readme_images/P1.jpg)
-![Results](https://github.com/lishiyu0088/Neural_Bradley-Terry/tree/main/readme_images/P1.png)
+![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.jpg)
+![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.png)
 
 Architecture
-![Images](https://github.com/lishiyu0088/Neural_Bradley-Terry/tree/main/readme_images/B1.jpg)
-![Results](https://github.com/lishiyu0088/Neural_Bradley-Terry/tree/main/readme_images/B1.png)
+![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.jpg)
+![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.png)
 ## Pre-train model (In Progress)
 
 ```bash
