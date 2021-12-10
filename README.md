@@ -16,14 +16,19 @@ pip install -r requirements.txt
 ## Dataset
 
 AVA dataset (used for pretrained models)
+
 The model was trained on the [AVA (Aesthetic Visual Analysis) dataset](http://refbase.cvc.uab.es/files/MMP2012a.pdf)
 You can get it from [here](https://github.com/mtobeiyf/ava_downloader)
 Here are some examples of images with theire scores 
 ![result1](https://3.bp.blogspot.com/-_BuiLfAsHGE/WjgoftooRiI/AAAAAAAACR0/mB3tOfinfgA5Z7moldaLIGn92ounSOb8ACLcBGAs/s1600/image2.png)
 
 Our dataset
-Our dataset is devided into landscape, portrait and architecture images. (https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing)
 
+The dataset is devided into landscape, portrait and architecture images. (https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing)
+
+Landscape
+![L1](https://drive.google.com/file/d/10tYFILOGV1yshnDtrEOpV9-f0-LKZFh8/view?usp=sharing)
+![L2](https://drive.google.com/file/d/1L0oA67-anoCi4omf3pMdsyj47OyFzuG6/view?usp=sharing)
 ## Pre-train model (In Progress)
 
 ```bash
