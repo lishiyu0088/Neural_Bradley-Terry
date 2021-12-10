@@ -1,0 +1,81 @@
+Starting epoch 1 / 25 
+
+The average loss is 2.7
+Starting epoch 2 / 25 
+
+The average loss is 2.6
+Starting epoch 3 / 25 
+
+The average loss is 2.5
+Starting epoch 4 / 25 
+
+The average loss is 2.5
+Starting epoch 5 / 25 
+
+The average loss is 2.5
+Starting epoch 6 / 25 
+
+The average loss is 2.4
+Starting epoch 7 / 25 
+
+The average loss is 2.4
+Starting epoch 8 / 25 
+
+The average loss is 2.4
+Starting epoch 9 / 25 
+
+The average loss is 2.4
+Starting epoch 10 / 25 
+
+The average loss is 2.4
+Starting epoch 11 / 25 
+
+The average loss is 2.3
+Starting epoch 12 / 25 
+
+The average loss is 2.3
+Starting epoch 13 / 25 
+
+The average loss is 2.3
+Starting epoch 14 / 25 
+
+The average loss is 2.3
+Starting epoch 15 / 25 
+
+The average loss is 2.2
+Starting epoch 16 / 25 
+
+The average loss is 2.2
+Starting epoch 17 / 25 
+
+The average loss is 2.1
+Starting epoch 18 / 25 
+
+The average loss is 2.1
+Starting epoch 19 / 25 
+
+The average loss is 2.0
+Starting epoch 20 / 25 
+
+The average loss is 2.0
+Starting epoch 21 / 25 
+
+The average loss is 2.0
+Starting epoch 22 / 25 
+
+The average loss is 2.0
+Starting epoch 23 / 25 
+
+The average loss is 2.0
+Starting epoch 24 / 25 
+
+The average loss is 2.0
+Starting epoch 25 / 25 
+
+The average loss is 2.0
+Validation: The average Pearson´s covariance is 0.545
+Validation: The average Spearman´s covariance is 0.532
+Validation: The average relative error is 9.348%
+Test: The average Pearson´s covariance is 0.54
+Test: The average Spearman´s covariance is 0.526
+Test: The average relative error is 9.431%

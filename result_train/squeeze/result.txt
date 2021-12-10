@@ -1,0 +1,93 @@
+Starting epoch 1 / 25 
+
+The average loss is 5.5
+Starting epoch 2 / 25 
+
+The average loss is 5.1
+Starting epoch 3 / 25 
+
+The average loss is 5.0
+Starting epoch 4 / 25 
+
+The average loss is 4.9
+Starting epoch 5 / 25 
+
+The average loss is 4.9
+Validation: The average Pearson´s covariance is 0.524
+Validation: The average Spearman´s covariance is 0.509
+Validation: The average relative error is 9.882%
+Starting epoch 6 / 25 
+
+The average loss is 0.48
+Starting epoch 7 / 25 
+
+The average loss is 0.48
+Starting epoch 8 / 25 
+
+The average loss is 0.48
+Starting epoch 9 / 25 
+
+The average loss is 0.48
+Starting epoch 10 / 25 
+
+The average loss is 0.47
+Validation: The average Pearson´s covariance is 0.552
+Validation: The average Spearman´s covariance is 0.537
+Validation: The average relative error is 9.703%
+Starting epoch 11 / 25 
+
+The average loss is 0.47
+Starting epoch 12 / 25 
+
+The average loss is 0.47
+Starting epoch 13 / 25 
+
+The average loss is 0.47
+Starting epoch 14 / 25 
+
+The average loss is 0.46
+Starting epoch 15 / 25 
+
+The average loss is 0.46
+Validation: The average Pearson´s covariance is 0.577
+Validation: The average Spearman´s covariance is 0.563
+Validation: The average relative error is 9.047%
+Starting epoch 16 / 25 
+
+The average loss is 0.46
+Starting epoch 17 / 25 
+
+The average loss is 0.45
+Starting epoch 18 / 25 
+
+The average loss is 0.45
+Starting epoch 19 / 25 
+
+The average loss is 0.45
+Starting epoch 20 / 25 
+
+The average loss is 0.45
+Validation: The average Pearson´s covariance is 0.59
+Validation: The average Spearman´s covariance is 0.575
+Validation: The average relative error is 8.867%
+Starting epoch 21 / 25 
+
+The average loss is 0.44
+Starting epoch 22 / 25 
+
+The average loss is 0.44
+Starting epoch 23 / 25 
+
+The average loss is 0.44
+Starting epoch 24 / 25 
+
+The average loss is 0.44
+Starting epoch 25 / 25 
+
+The average loss is 0.44
+Validation: The average Pearson´s covariance is 0.592
+Validation: The average Spearman´s covariance is 0.576
+Validation: The average relative error is 8.937%
+Test: The average Pearson´s covariance is 0.597
+Test: The average Spearman´s covariance is 0.584
+Test: The average relative error is 8.871%
