@@ -15,55 +15,46 @@ pip install -r requirements.txt
 
 ## Dataset
 
-AVA dataset (used for pretrained models)
+### AVA dataset (used for pretrained models)
 
 The model was trained on the [AVA (Aesthetic Visual Analysis) dataset](http://refbase.cvc.uab.es/files/MMP2012a.pdf)
 You can get it from [here](https://github.com/mtobeiyf/ava_downloader)
 Here are some examples of images with theire scores 
 ![result1](https://3.bp.blogspot.com/-_BuiLfAsHGE/WjgoftooRiI/AAAAAAAACR0/mB3tOfinfgA5Z7moldaLIGn92ounSOb8ACLcBGAs/s1600/image2.png)
 
-Our dataset
+### Our dataset
 
-The dataset is devided into landscape, portrait and architecture images. (https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing)
+The dataset is devided into landscape, portrait and architecture images. Our dataset evaluate images in different groups. The scores are calculated by survey results according to Bradley-Terry model.(https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing)
 
-Landscape
+Landscape images and scores
 ![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.jpg)
-![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.png)
+![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.png =100x100)
 
-Portrait
+Portrait images and scores
 ![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.jpg)
-![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.png)
+![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.png =100x100)
 
-Architecture
+Architecture images and scores
 ![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.jpg)
-![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.png)
-## Pre-train model (In Progress)
+![Results](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.png =100x100)
+## Pre-train model
 
-```bash
+The pretrained models of AVA dataset can be found in the folder result_train/alex, lsim, squeeze and vgg.
 
-```
+## Bradley-Terry model
 
-
-## Deployment (In progress)
-
-```bash
-
-```
+The implementation of Bradley-Terry model in MATLAB can be found in the website http://personal.psu.edu/drh20/code/btmatlab/.
 
 ## Usage
 ```
 
-Usage: 
-GPU: python main-gpu.py
-CPU: python main-cpu.py
+AVA dataset by GPU: python main_AVA_GPU.py
+AVA dataset by CPU: python main_AVA_GPU.py
+Our dataset by GPU: python main_GPU.py
+Our dataset by CPU: python main_GPU.py
 
-Options:
-  -Alex  Train by Alex net
-  -Squeeze  Train by Squeeze net
-  -VGG  Train by VGG net
-  -LSiM  Train by LSiM net
-
-
+Selection of models: --model vgg/alex/squeeze/lsim
+Example of command: python main_GPU.py --model vgg
 ```
 
 
