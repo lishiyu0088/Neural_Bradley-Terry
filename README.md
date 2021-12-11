@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ### AVA dataset (used for pretrained models)
 
 The model was trained on the [AVA (Aesthetic Visual Analysis) dataset](http://refbase.cvc.uab.es/files/MMP2012a.pdf)
-You can get it from [here](https://github.com/mtobeiyf/ava_downloader). Before running the code, please create a new folder with the name "AVA_dataset".
+You can get it from [here](https://github.com/mtobeiyf/ava_downloader). Before running the code, please download all the images from AVA dataset and put them into the folder with the name "AVA_dataset".
 Here are some examples of images with theire scores 
 ![result1](https://3.bp.blogspot.com/-_BuiLfAsHGE/WjgoftooRiI/AAAAAAAACR0/mB3tOfinfgA5Z7moldaLIGn92ounSOb8ACLcBGAs/s1600/image2.png)
 
