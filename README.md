@@ -28,15 +28,15 @@ The dataset is devided into landscape, portrait and architecture images. Our dat
 
 Landscape images and scores
 ![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.jpg)
-<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.png" width="200" height="200">
+<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.png" width="50%" height="50%">
 
 Portrait images and scores
-![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.jpg)
-<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.png" width="200" height="200">
+<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.jpg" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.png" width="50%" height="50%">
 
 Architecture images and scores
 ![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.jpg)
-<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.png" width="200" height="200">
+<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.png" width="50%" height="50%">
 ## Pre-train model
 
 The pretrained models of AVA dataset can be found in the folder result_train/alex, lsim, squeeze and vgg.
