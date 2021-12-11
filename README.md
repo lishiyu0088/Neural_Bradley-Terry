@@ -3,7 +3,7 @@ This project use CNN models for the image beauty assessment. To better predict t
 
 # PyTorch
 
-PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/2111.10127) by Shiyu Li, Hao Ma and Xiangyu Hu. 
+PyTorch implementation of [Neural Image Beauty Predictor Based on Bradley-Terry Model](https://arxiv.org/abs/2111.10127) by Shiyu Li, Hao Ma and Xiangyu Hu. 
 
 
 ## Installing
