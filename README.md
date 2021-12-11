@@ -24,17 +24,20 @@ Here are some examples of images with theire scores
 
 ### Our dataset
 
-The dataset is devided into landscape, portrait and architecture images. Our dataset evaluate images in different groups. The scores are calculated by survey results according to Bradley-Terry model.(https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing)
+The dataset is devided into landscape, portrait and architecture images. Our dataset evaluate images in different groups. The scores are calculated by survey results according to Bradley-Terry model. Our dataset can be downloaded by https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing.
 
 Landscape images and scores
+
 ![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.jpg)
 <img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.png" width="50%" height="50%">
 
 Portrait images and scores
+
 <img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.jpg" width="50%" height="50%">
 <img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.png" width="50%" height="50%">
 
 Architecture images and scores
+
 ![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.jpg)
 <img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.png" width="50%" height="50%">
 ## Pre-train model
