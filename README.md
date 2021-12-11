@@ -24,7 +24,7 @@ Here are some examples of images with theire scores
 
 ### Our dataset
 
-The dataset is devided into landscape, portrait and architecture images. Our dataset evaluate images in different groups. The scores are calculated by survey results according to Bradley-Terry model. Our dataset can be downloaded by https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing.
+The dataset is devided into landscape, portrait and architecture images. Our dataset evaluates images in different groups. The scores are calculated by survey results according to Bradley-Terry model. Our dataset can be downloaded by https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing.
 
 Landscape images and scores
 
