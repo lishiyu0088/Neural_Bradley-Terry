@@ -3,7 +3,7 @@ This project use CNN models for the image beauty assessment. To better predict t
 
 # PyTorch
 
-PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/2111.10127) by Shiyu Li, Hao Ma and Xiangyu Hu. 
+PyTorch implementation of [Neural Image Beauty Predictor Based on Bradley-Terry Model](https://arxiv.org/abs/2111.10127) by Shiyu Li, Hao Ma and Xiangyu Hu. 
 
 
 ## Installing
@@ -15,47 +15,49 @@ pip install -r requirements.txt
 
 ## Dataset
 
-AVA dataset (used for pretrained models)
+### AVA dataset (used for pretrained models)
 
 The model was trained on the [AVA (Aesthetic Visual Analysis) dataset](http://refbase.cvc.uab.es/files/MMP2012a.pdf)
-You can get it from [here](https://github.com/mtobeiyf/ava_downloader)
+You can get it from [here](https://github.com/mtobeiyf/ava_downloader). Before running the code, please create a new folder with the name "AVA_dataset".
 Here are some examples of images with theire scores 
 ![result1](https://3.bp.blogspot.com/-_BuiLfAsHGE/WjgoftooRiI/AAAAAAAACR0/mB3tOfinfgA5Z7moldaLIGn92ounSOb8ACLcBGAs/s1600/image2.png)
 
-Our dataset
+### Our dataset
 
-The dataset is devided into landscape, portrait and architecture images. (https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing)
+The dataset is devided into landscape, portrait and architecture images. Our dataset evaluates images in different groups. The scores are calculated by survey results according to Bradley-Terry model. Our dataset can be downloaded by https://drive.google.com/drive/folders/1t9FfFZCEGzQk8mxs-i7BgLptyaYnzVxe?usp=sharing. Before running the code, please put the images into the folder "inputs".
 
-Landscape
-![L1](https://drive.google.com/file/d/10tYFILOGV1yshnDtrEOpV9-f0-LKZFh8/view?usp=sharing)
-![L2](https://drive.google.com/file/d/1L0oA67-anoCi4omf3pMdsyj47OyFzuG6/view?usp=sharing)
-## Pre-train model (In Progress)
+Landscape images and scores
 
-```bash
+![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.jpg)
+<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/L1.png" width="50%" height="50%">
 
-```
+Portrait images and scores
 
+<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.jpg" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/P1.png" width="50%" height="50%">
 
-## Deployment (In progress)
+Architecture images and scores
 
-```bash
+![Images](https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.jpg)
+<img src="https://raw.githubusercontent.com/lishiyu0088/Neural_Bradley-Terry/main/readme_images/B1.png" width="50%" height="50%">
+## Pre-train model
 
-```
+The pretrained models of AVA dataset can be found in the folder result_train/alex, lsim, squeeze and vgg.
+
+## Bradley-Terry model
+
+The implementation of Bradley-Terry model in MATLAB can be found in the website http://personal.psu.edu/drh20/code/btmatlab/.
 
 ## Usage
 ```
 
-Usage: 
-GPU: python main-gpu.py
-CPU: python main-cpu.py
+AVA dataset by GPU: python main_AVA_GPU.py
+AVA dataset by CPU: python main_AVA_GPU.py
+Our dataset by GPU: python main_GPU.py
+Our dataset by CPU: python main_GPU.py
 
-Options:
-  -Alex  Train by Alex net
-  -Squeeze  Train by Squeeze net
-  -VGG  Train by VGG net
-  -LSiM  Train by LSiM net
-
-
+Selection of models: --model vgg/alex/squeeze/lsim
+Example of command: python main_GPU.py --model vgg
 ```
 
 

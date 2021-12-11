@@ -189,13 +189,13 @@ for epoch in range(epochs):
         epoch_vali.append(epoch+1)
         corr_vali_plt.append(corr_vali_ave_spearman)
         error_vali_ave = error_vali_sum / (i+1)
-        print('Validation: The average Pearson´s covariance is {:.3}'.format(corr_vali_ave_pearson))  # 输出每次的误差值
-        print('Validation: The average Spearman´s covariance is {:.3}'.format(corr_vali_ave_spearman))  # 输出每次的误差值
+        print('Validation: The average Pearson´s covariance is {:.3}'.format(corr_vali_ave_pearson)) 
+        print('Validation: The average Spearman´s covariance is {:.3}'.format(corr_vali_ave_spearman))
         print('Validation: The average relative error is {:.3%}'.format(error_vali_ave))
         plt.scatter(100*scores_vali_all, 100*pred_vali_all)
         plt.title('Scatter plot:\nThe average Pearson´s covariance is {:.3}\nThe average Spearman´s covariance is {:.3}\nThe average relative error is {:.3%}'.format(corr_vali_ave_pearson,corr_vali_ave_spearman, error_vali_ave))  # 图形标题
-        plt.xlabel('Winning probability of survey in %')  # 纵坐标轴标题
-        plt.ylabel('Winning probability of prediction in %')  # 纵坐标轴标题
+        plt.xlabel('Winning probability of survey in %') 
+        plt.ylabel('Winning probability of prediction in %')
         plt.savefig('./result_train/result_vali_scatter' + format(epoch) + '.png')
         plt.cla()
         plt.close()
@@ -232,7 +232,6 @@ for i, testdata in enumerate(Testdata):
         survey_sum = survey_sum + score_test
 
 
-    #还在for循环之内，使用训练好的参数出图并保存
     scores_test = np.array(scores_test)
     pred_score_test = np.array(pred_score_test)
 

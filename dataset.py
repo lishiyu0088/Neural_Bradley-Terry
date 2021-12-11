@@ -1,13 +1,3 @@
-################
-#
-# Physics-informed GAN
-# H. Ma
-# 20201112
-# Modified from "Deep Flow Prediction - N. Thuerey"
-# load the images
-#
-################
-
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset

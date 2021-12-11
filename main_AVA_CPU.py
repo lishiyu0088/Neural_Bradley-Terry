@@ -123,7 +123,7 @@ for epoch in range(epochs):
 
 
      
-    torch.save(netD.state_dict(), "./result_train/modelD" + runningMode.name)   # 保存训练好的参数
+    torch.save(netD.state_dict(), "./result_train/modelD" + runningMode.name)
 
 ########################################################## 3-Validation mode #########################################################
     if (epoch+1)%5 == 0:
@@ -163,7 +163,7 @@ for epoch in range(epochs):
         print('Validation: The average Spearman´s covariance is {:.2}'.format(corr_vali_ave_spearman))
         print('Validation: The average relative error is {:.2%}'.format(error_vali_ave))
         plt.scatter(scores_vali_all, pred_vali_all)
-        plt.title('Scatter plot of validation:\nThe average Pearson´s covariance is {:.2}\nThe average Spearman´s covariance is {:.2}\nThe average relative error is {:.2%}'.format(corr_vali_ave_pearson,corr_vali_ave_spearman, error_vali_ave))  # 图形标题
+        plt.title('Scatter plot of validation:\nThe average Pearson´s covariance is {:.2}\nThe average Spearman´s covariance is {:.2}\nThe average relative error is {:.2%}'.format(corr_vali_ave_pearson,corr_vali_ave_spearman, error_vali_ave))
         plt.xlabel('Scores of survey in %')
         plt.ylabel('Scores of prediction in %')
         plt.savefig('./result_train/result_vali_scatter' + format(epoch) + '.png')
